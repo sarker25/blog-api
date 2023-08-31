@@ -4,7 +4,17 @@
   "main": "index.js",
   "author": "sarker25 <shahadathbinoy25@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "swagger-ui-express": "^5.0.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "express-openapi-validator": "^5.0.6",
+    "nodemon": "^3.0.1"
   }
 }
